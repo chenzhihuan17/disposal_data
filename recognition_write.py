@@ -21,7 +21,7 @@ def asr_result(str_result, value_result, asr_writer):
             bool_result = '1'
         else:
             bool_result = '0'
-    print(str_result + ' ' + value_result + ' ' + bool_result)
+    #print(str_result + ' ' + value_result + ' ' + bool_result)
     asr_writer.writerow([str_result, value_result, bool_result])
 
 
@@ -74,7 +74,7 @@ def main():
     csvfile.close
     fp.close
 
-    
+
 
 if __name__ == "__main__":
     # execute only if run as a script
